@@ -1,0 +1,46 @@
+JVM: Java Virtual Machine
+    -> executes java bytecode
+    -> bytecode to machine code
+    -> makes java independent
+
+JRE: Java Runtime Environment
+    -> JVM + Libraries(java.lang, java.util, etc.)
+    -> use when we only want to run java program not develop them.
+
+JDK: Java Development Kit
+    -> JRE + Development tools
+    -> contains JRE, compiler, debugger etc.
+    -> required for developing java applications.
+
+
+DATATYPES:-
+=> Primitive:
+    1. byte - 1 byte
+    2. short - 2 bytes
+    3. int - 4 bytes
+    4. long - 8 bytes (append L)
+    5. float - 4 bytes (append f)
+    6. double - 8 bytes
+    7. char - 2 bytes
+    8. boolean - 1 bytes
+
+=> Non-Primitive:
+    1. String
+    2. Classes
+    3. Arrays
+    4. Interfaces
+
+
+VARIABLES:-
+    1. Local var: inside method
+    2. Instance var: inside class (property)
+    3. Static var: declared using static keyword
+
+
+OPERATORS:-
+1. Arithmetic
+2. Logical
+3. Assignment
+4. Relational
+5. Unary
+6. Ternary
