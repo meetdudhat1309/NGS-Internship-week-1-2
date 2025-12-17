@@ -44,3 +44,23 @@ OPERATORS:-
 4. Relational
 5. Unary
 6. Ternary
+
+CLASS: blueprint or template that define properties and behaviour, doesn't occupy memory until an object is created.
+
+OBJECT: real world entity created from class, occupy memory in heap
+
+CONSTRUCTOR: default constructor, parameterized constructor
+
+OOP: Object Oriented Programming
+1.Encapsulation: Binding data(variables) and methods together into a single unit and controlling access to the data. (achieved using classes, private variables and public getters and setters)
+2.Inheritance: allows class to acquire properties and behaviours of another class
+3.Polymorphism: one object many forms - same method behaves differently depending on the object (compile-time(overloading) and runtime(overriding))
+4.Abstraction: hiding implementation and showing only essential features.
+
+final variable: can't be changed(value)
+final method: can't be override
+final class: can't be inherited
+private members are not inherited
+super() must be first statement in constructor
+static method can't be overridden
+interface variables are public static final and methods are public by default
