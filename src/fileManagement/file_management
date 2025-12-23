@@ -1,0 +1,53 @@
+Streams in Java:
+    1. Byte stream : InputStream, OutputStream
+        => all the stream related classes(classes ends with Stream) deals with byte data.
+    2. Character stream : Reader, Writer
+        => all the character related classes(classes ends with Reader or Writer) deals with character data.
+
+
+1. Byte streams:
+    a) InputStream : Read data
+        1.FileInputStream :
+            read raw bytes from a file (when we have binary data-audio, image, pdf, also reading text file as bytes)
+            reads one byte at a time
+        2.ByteArrayInputStream :
+            read data from a byte array as if it were an input stream
+            read bytes from byte array->fast
+        3.BufferedInputStream :
+            use buffering for fast reading
+            adds buffering to another input stream to improve performance(when we have large files or have to reducing disk access)
+            reads a block of bytes into memory, then serves bytes from buffer
+        4.DataInputStream :
+            reads primitive data types
+            can read int, float, double, boolean
+    b) OutputStream : Write data
+        1.FileOutputStream :
+            write raw bytes to a file
+            writes binary files(image, audio, pdf etc. and also write text data as bytes)
+        2.ByteArrayOutputStream :
+            writes data into a byte array instead of file, which grows automatically
+        3.BufferedOutputStream :
+            use buffering for fast writing
+            when we want to writing large data or reducing disk I/O operations
+        4.DataOutputStream
+            writes primitive data types
+            can write int, float, double, boolean
+
+2.Character streams:
+    a) Reader: reads characters
+        1.FileReader :
+            reads character from a file.
+            reading text file
+        2.BufferedReader :
+            reads text efficiently using buffering
+            adds buffering to another Reader for better performance
+            can read entire line using readLine()
+        3.InputStreamReader :
+            bridge between byte streams and character streams
+            convert bytes into characters
+
+        3.StringReader : reads character from a string.
+    b) Writer
+        1.FileWriter : writes character to a file
+        2.StringWriter : writes character into
+        3.BufferedWriter : writes text efficiently using buffering

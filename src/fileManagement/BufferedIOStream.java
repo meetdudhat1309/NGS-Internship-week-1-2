@@ -1,0 +1,7 @@
+package fileManagement;
+
+public class BufferedIOStream {
+    public static void main(String[] args) {
+
+    }
+}

@@ -1,0 +1,5 @@
+This is a file containing student details.
+Student name
+Student enrollment
+Student date of birth
+Student course
